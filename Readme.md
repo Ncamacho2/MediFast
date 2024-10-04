@@ -4,6 +4,11 @@ Este proyecto es un **Sistema de Gestión de Salud "MEDIFAST"**   desarrollado e
 
 # https://violet-manatee-768035.hostingersite.com/MediFast/views/login.php
 
+![image](https://github.com/user-attachments/assets/be328fc6-d324-4884-9dda-b05dc72d88a3)
+
+![image](https://github.com/user-attachments/assets/ea928ffc-0d85-421a-bac2-8ea9f9e69ad3)
+
+
 ## Funcionalidades
 
 1. **Gestionar Citas Médicas**: Los pacientes pueden programar, modificar o cancelar citas médicas con los médicos.
