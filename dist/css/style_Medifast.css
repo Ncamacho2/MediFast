@@ -1,0 +1,200 @@
+.bg-info {
+    background-color: #007BFF !important;
+}
+
+
+/* Estilos para la ventana emergente */
+
+.popup-container {
+    display: none;
+    /* Oculta la ventana emergente por defecto */
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content {
+    position: relative;
+}
+
+.popup-close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.herramientas .info-box-text {
+    color: white;
+}
+
+.footer {
+    color: #fff;
+}
+
+.footer:hover {
+    color: #007BFF !important;
+}
+
+.dark-mode .btn-primary {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.dark-mode .btn-danger {
+    background-color: #B4270A;
+    border-color: #B4270A;
+}
+
+.dark-mode .btn-danger:hover {
+    color: #FF894A;
+    background-color: #FFE9D4;
+    border-color: #FFE9D4;
+}
+
+.dark-mode .page-item.active .page-link {
+    background-color: white;
+    border-color: #007BFF;
+    color: #FF8853;
+}
+
+.dark-mode .page-item .page-link {
+    color: white;
+}
+
+element.style {
+    background-color: #007BFF !important;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #007BFF !important;
+    border-color: #007BFF;
+}
+
+.swal2-styled.swal2-cancel {
+    border: 0;
+    border-radius: .25em;
+    background: initial;
+    background-color: #757575 !important;
+    color: #fff;
+    font-size: 1em;
+}
+
+.dark-mode .btn-info {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.dark-mode .btn-info:hover {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.dark-mode .btn-success {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.dark-mode .btn-success:hover {
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+button.dt-button,
+div.dt-button,
+a.dt-button,
+input.dt-button {
+    border: 1px solid #007BFF;
+    color: #fff !important;
+    background-color: #007BFF !important;
+}
+
+div.dt-button-collection button.dt-button:active:not(.disabled),
+div.dt-button-collection button.dt-button.active:not(.disabled),
+div.dt-button-collection div.dt-button:active:not(.disabled),
+div.dt-button-collection div.dt-button.active:not(.disabled),
+div.dt-button-collection a.dt-button:active:not(.disabled),
+div.dt-button-collection a.dt-button.active:not(.disabled) {
+    color: #FFF;
+    background: #007BFF;
+    box-shadow: inset 1px 1px 3px #007BFF;
+}
+
+#error-message {
+    color: #fff;
+}
+
+
+/* Agregar sombra y bordes redondeados */
+
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(235, 230, 230, 0.212);
+}
+
+
+/* Personalizar encabezados de tabla */
+
+.thead-dark th {
+    background-color: #293c50;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Centrar los datos */
+
+.table td,
+.table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+/* Colores de botón */
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    transition: background-color 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+
+/* Filas con efecto hover */
+
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Tabla responsiva */
+
+@media (max-width: 768px) {
+    .table-responsive {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .table th,
+    .table td {
+        font-size: 14px;
+        white-space: nowrap;
+    }
+}

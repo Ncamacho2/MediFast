@@ -1,0 +1,36 @@
+body {
+    background-color: #fff;
+    margin:0;
+ } 
+ 
+ svg text {
+   font-family: Lora;
+   letter-spacing: 10px;
+   stroke: #ff4500;
+   font-size: 100px;
+   font-weight: 700;
+   stroke-width: 3;
+  
+   animation: textAnimate 5s infinite alternate;
+   
+ }
+ 
+ @keyframes textAnimate {
+   0% {
+     stroke-dasharray: 0 50%;
+     stroke-dashoffset:  20%;
+     fill:hsl(22, 100%, 50%)
+ 
+   }
+   
+   100% {
+     stroke-dasharray: 50% 0;
+     stroke-dashoffstet: -20%;
+     fill: rgb(252, 144, 82)
+   }
+   
+ }
+ 
+.img-circle {
+  border-radius: 20% !important;
+}

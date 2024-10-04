@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Redirigir la página de inicio
+RewriteRule ^$ /views/login.php [L]
+
+# Redirigir otras páginas
+RewriteRule ^login/?$ /views/login.php [L]
+
+
+# Manejar errores 404 personalizados (opcional)
+ErrorDocument 404 /views/404.php

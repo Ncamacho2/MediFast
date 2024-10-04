@@ -1,0 +1,13 @@
+.logo {
+    border-radius: 5px;
+}
+
+.nav {
+    background: #6D6D6D !important;
+    color: white;
+}
+
+.font-weight-light {
+    font-weight: 700 !important;
+    color: white;
+}
